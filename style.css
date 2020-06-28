@@ -1,0 +1,77 @@
+
+
+/* CONTAINER */
+
+#container{
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+/* NAVBAR SECTION */
+
+	#navbar{
+		width: 1000px;
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+		
+	}
+
+	#navbar a{
+		text-align: center;
+  		border-style: 2px solid black;
+ 	    border-radius: 10px;
+		display: inline;
+		padding: 14px 20px;
+	}
+	#navbar a:hover{
+		 background-color: #ddd;
+ 		 color: black;
+	}
+
+
+/* HEADER SECTION */
+
+#header{
+	width: 1000px;
+	
+}
+#header h1{
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Dosis', sans-serif;
+}
+
+#header h2{
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 424;
+}
+
+
+/* MAIN SECTION	*/
+
+#main{
+	width: 1000px;
+	background-color: white;
+}
+
+/* FOOTER SECTION */
+
+
+#footer{
+	text-align: center;
+}
+
+.social-icons{
+	
+	margin: 0 auto 0 auto;
+}
