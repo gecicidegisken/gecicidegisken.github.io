@@ -3,7 +3,7 @@
 /* CONTAINER */
 
 #container{
-	width: 1000px;
+	width: 100%;
 	margin: 0 auto 0 auto;
 }
 
@@ -15,7 +15,7 @@ a{
 /* NAVBAR SECTION */
 
 	#navbar{
-		width: 1000px;
+	
 		display: flex;
 		justify-content: center;
 		padding: 10px;
@@ -38,7 +38,6 @@ a{
 /* HEADER SECTION */
 
 #header{
-	width: 1000px;
 	
 }
 #header h1{
@@ -60,8 +59,10 @@ a{
 /* MAIN SECTION	*/
 
 #main{
-	width: 1000px;
+	
 	background-color: white;
+	width: 50%;
+	margin: 0 auto 0 auto;
 }
 
 /* FOOTER SECTION */
