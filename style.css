@@ -1,8 +1,12 @@
 
+.clearfix {
+  overflow: auto;
+}
+
 
 /* CONTAINER */
 
-#container{
+.container{
 	width: 100%;
 	margin: 0 auto 0 auto;
 }
@@ -14,22 +18,23 @@ a{
 
 /* NAVBAR SECTION */
 
-	#navbar{
+	.navbar{
 	
 		display: flex;
 		justify-content: center;
 		padding: 10px;
+		font-family: 'Dosis', sans-serif;
 		
 	}
 
-	#navbar a{
+    .navbar a{
 		text-align: center;
   		border-style: 2px solid black;
  	    border-radius: 10px;
 		display: inline;
 		padding: 14px 20px;
 	}
-	#navbar a:hover{
+	.navbar a:hover{
 		 background-color: #ddd;
  		 color: black;
 	}
@@ -37,17 +42,17 @@ a{
 
 /* HEADER SECTION */
 
-#header{
+.header{
 	
 }
-#header h1{
+.header h1{
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
 	font-family: 'Dosis', sans-serif;
 }
 
-#header h2{
+.header h2{
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
@@ -58,17 +63,19 @@ a{
 
 /* MAIN SECTION	*/
 
-#main{
+.main{
 	
 	background-color: white;
 	width: 50%;
 	margin: 0 auto 0 auto;
+	font-family: 'Courier';
+	  line-height: 1.2;
 }
 
 /* FOOTER SECTION */
 
 
-#footer{
+.footer{
 	text-align: center;
 }
 
@@ -76,3 +83,30 @@ a{
 	
 	margin: 0 auto 0 auto;
 }
+
+
+/* ABOUT ME 
+
+p{
+	position: relative;
+  animation: mymove 2s;
+  transition: opacity 0s 2s, opacity 2s linear;
+
+}
+
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: -200px;}
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}*/
