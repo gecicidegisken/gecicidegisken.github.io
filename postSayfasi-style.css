@@ -1,0 +1,20 @@
+
+.main{
+	width: 90%;
+}
+
+.post-image{
+	width: 100%;
+	border-radius: 10px;
+	margin: 0 auto 0 auto;
+
+}
+.post-image img{
+	display: block;
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+.postAdi{
+	font-size: 4rem;
+	margin-top:0px;
+}
