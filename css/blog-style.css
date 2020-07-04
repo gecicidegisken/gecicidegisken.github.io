@@ -60,7 +60,7 @@
 	padding:20px;
 }
 
-.kucukresim{
+.kucuk-resim{
   display: block;
   float: none;
   margin:0 auto 0 auto;
@@ -73,7 +73,7 @@
 		width: 75%;
 	}
 
-	.kucukresim{
+	.kucuk-resim{
 		width: 50%;
 	}
 }
