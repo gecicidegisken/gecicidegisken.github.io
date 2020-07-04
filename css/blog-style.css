@@ -1,15 +1,22 @@
 
+.container{
+	width: 100%;
+}
+
 .readMore{
 	float: right;
 	text-decoration: none;
 	margin-right:11px;
 }
+.clearfix img {
+  overflow: auto;
+}
 
-.kucuk-resim{
-  display: block;
-  width: 150px;
+.kucukresim img{ 
+  width: 20%;
   float:left;
   margin-right: 15px;
+  height: auto;
 }
 
 .post{
@@ -17,11 +24,21 @@
 	margin: 20px;
 	padding: 20px;	
 	font-family: 'Roboto', sans-serif;
+	width: 90%;
+
+}
+
+/* post heading*/
+.post h2{
+	margin-top:0px;
+	padding-top:0px;
 }
 .main{
+
 	padding-top:20px;
 	padding-bottom:20px;
 	font-family: 'Roboto', sans-serif;
+	width:50%;
 
 }
 
@@ -29,3 +46,34 @@
 	background-color: white;
 }
 
+/* TELEFON AYARLARI */
+
+@media only screen and (max-width: 700px) {
+ 
+ .main{
+ 	width: 100%;
+
+ }
+.post{
+	width: 90%;
+	margin: 20px;
+	padding:20px;
+}
+
+.kucukresim{
+  display: block;
+  float: none;
+  margin:0 auto 0 auto;
+  width: 100%;
+}
+ }
+@media only screen and (min-width:700px) and (max-width:1024px) 
+{
+	.main{
+		width: 75%;
+	}
+
+	.kucukresim{
+		width: 50%;
+	}
+}
