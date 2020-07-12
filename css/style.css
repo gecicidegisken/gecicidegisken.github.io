@@ -183,11 +183,7 @@ html,body{
 
 @media only screen and (max-width: 600px){
 
-  .main{
-	  max-width: 600px;  }
-.container{
-    height: 100vh;
- }
+html, body {margin: 0; height: 100%; overflow: hidden;}
 }
 
  
