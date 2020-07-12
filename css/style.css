@@ -113,7 +113,7 @@ html,body{
 }
 .girisYazisi p{
    color:var(--metinrengi);
-  transform: translateY(100px);
+  transform: translateY(120px);
   animation: slideUp .8s ease forwards .8s;
 }
 
@@ -198,7 +198,11 @@ html,body{
 @media only screen and (max-width: 600px){
 
   .main{
-    max-width: 600px;
+	  max-width: 600px;  }
+	.container{
+    height: 100vh;
+
+
   }
 
 
