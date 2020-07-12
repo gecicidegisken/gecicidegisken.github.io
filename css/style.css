@@ -185,11 +185,11 @@ html,body{
 
   .main{
 	  max-width: 600px;  }
-	.container{
+.container{
     height: 100vh;
-
-
-  }
-
-
+ }
 }
+
+ 
+
+
