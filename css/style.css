@@ -10,27 +10,12 @@
      padding: 0;
 }
 
-/* mavi gül kurusu tema
 :root{
   --baslikrengi:#5d5b6a;
   --kucukbaslikrengi:#758184;
-  --link:#ba7967;  // blog yazan yer 
+  --link:#ba7967; 
   --socialrengi:#cfb495;
   --metinrengi:#5d5b6a;
-  --overlay:;
-}
-
-/* mavi gül kurusu tema*/
-
-
-/*  yeni tema*/
-:root{
-  --baslikrengi:#a35638;
-  --kucukbaslikrengi:#e08f62;
-  --link:#9dab86;  
-  --socialrengi:#deb881;
-  --metinrengi:dimgray;
-  --cizgirengi:gray;
   --overlay:;
 }
 
