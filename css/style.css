@@ -193,3 +193,13 @@ html,body{
     transform: translateY(0px);
   }
 }
+
+
+@media only screen and (max-width: 600px){
+
+  .main{
+    max-width: 600px;
+  }
+
+
+}
