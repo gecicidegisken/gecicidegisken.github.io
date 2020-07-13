@@ -1,0 +1,70 @@
+:root{
+  --postbasligi:#deb881;
+  --kucukbaslikrengi:#758184;
+}
+
+
+
+/* CONTAINER */
+
+
+
+
+/* HEADER */
+
+.header{
+  font-size: 0.5rem;
+  overflow: hidden;
+}
+.header > .postAdi{
+  font-size: 2.5rem;
+  color:var(--postbasligi);
+  margin-bottom: 3px;
+  transform: translateY(600px);
+}
+.bloglink h2{
+  overflow: hidden;
+
+}
+.header >.bloglink a{
+  color:var(--kucukbaslikrengi);
+  transform: translateY(9000px);
+  animation: slideUp .8s ease forwards 1s;
+ 
+}
+.header > .bloglink h{
+  transform: translateY(9000px);
+  animation: slideUp .8s ease forwards 1s;
+}
+.header h3{
+  color:dimgray;
+  font-size: 15px;
+  font-weight: 200;
+  transform: translateY(600px);
+  animation: slideUp .8s ease forwards 0.8s;
+}
+
+.main{
+  font-weight: 350;
+  animation: slideUp .5s ease forwards 1s;
+}
+
+.footer{
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 768px){
+
+  .header > .postAdi{
+  max-width:20rem; 
+
+  color:var(--postbasligi);
+  margin-bottom: 3px;
+}
+
+}
+
+
+
