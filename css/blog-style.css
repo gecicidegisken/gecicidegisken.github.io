@@ -21,10 +21,11 @@ a{
   --socialrengi:#cfb495;
   --metinrengi:gray;
   --cizgirengi:gray;
-  --postbaşlığı:#272829;
-  --baslikhover: #deb881 ; /* post başlığı hover*/
+  --postbaşlığı:#353839;
+  --navbarhover:#ea907a;
   --overlay:;
   --kucukbaslikrengi:#758184;
+  --posthover:#ba7967;
 }
 
 /* CONTAINER */
@@ -55,7 +56,7 @@ a{
 
  /* HEADER */
  .header{
- font-family: 'Comfortaa', cursive;;
+ font-family: 'Comfortaa', cursive;
  align-self: center;
  overflow: hidden;
   height: auto;
@@ -98,12 +99,16 @@ a{
   font-family: "Dosis";
   font-size: 1.5rem;
 }
-
+.navbar a:hover{
+  border-radius: 8px;
+  transform: scale(1.01);
+  color: var(--navbarhover);
+}
 /* posts */
-.post-preview{
+.post-preview:hover{
+  
   }
 .post-preview  a {
- 
   text-align: left;
   color: black;
 }
@@ -112,13 +117,7 @@ a{
 } 
 .post-preview a:hover {
   text-decoration: none;
-  color: var(--baslikhover);
-}
-.post-preview:hover{
-  padding: 10px;
-  border-radius: 8px;
-  transform:scale(1.01);
-  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: var(--posthover);
 }
 
  .post-title {
@@ -127,6 +126,9 @@ a{
   margin-top: 30px;
   margin-bottom: 10px;
   font-family: 'Roboto', sans-serif;
+}
+.post-title:hover{
+  color: var(--posthover);
 }
 
  .post-subtitle {
@@ -163,8 +165,13 @@ a{
 }
 .socialicons a{
   color: var(--socialicons);
+  
 }
 
+.socialicons a:hover{
+  transform:scale(1.02);
+ 
+}
 
 
 
