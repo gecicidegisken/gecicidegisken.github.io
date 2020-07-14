@@ -22,6 +22,10 @@
   margin-bottom: 3px;
   transform: translateY(600px);
 }
+
+.bloglink{
+  mmargin-left:0px;
+}
 .bloglink h2{
   overflow: hidden;
 
