@@ -36,6 +36,7 @@
 
 }
 .header >.bloglink a{
+    margin-left:0px;
   color:var(--kucukbaslikrengi);
   transform: translateY(9000px);
   animation: slideUp .8s ease forwards 1s;
