@@ -24,7 +24,9 @@
 }
 
 .bloglink{
-  mmargin-left:0px;
+  margin-left:0px;
+  overflow: hidden;
+
 }
 .bloglink h2{
   overflow: hidden;
