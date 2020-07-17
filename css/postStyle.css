@@ -31,7 +31,7 @@
 .bloglink h2{
   overflow: hidden;
   margin-left:0px;
-    transform: translateY(9000px);
+  transform: translateY(9000px);
   animation: slideUp .8s ease forwards 1s;
 
 }
