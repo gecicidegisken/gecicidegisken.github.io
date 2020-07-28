@@ -23,12 +23,12 @@
   transform: translateY(600px);
 }
 
-.bloglink{
+.header >.bloglink{
   margin-left:0px;
   overflow: hidden;
 
 }
-.bloglink h2{
+.header >.bloglink h2{
   overflow: hidden;
   margin-left:0px;
   transform: translateY(9000px);
