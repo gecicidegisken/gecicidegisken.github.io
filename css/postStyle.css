@@ -14,44 +14,32 @@
 
 .header{
   font-size: 0.5rem;
-  overflow: hidden;
+  
 }
 .header > .postAdi{
   font-size: 2.5rem;
   color:var(--postbasligi);
   margin-bottom: 3px;
   transform: translateY(600px);
+  animation: slideDown .8s ease forwards 0.8s;
 }
 
-.header >.bloglink{
-  margin-left:0px;
-  overflow: hidden;
-
-}
-.header >.bloglink h2{
-  overflow: hidden;
-  margin-left:0px;
-  transform: translateY(9000px);
-  animation: slideUp .8s ease forwards 1s;
-
+.header h2{
+  transform: none;;
+  animation:none;
 }
 .header >.bloglink a{
-    margin-left:0px;
-  color:var(--kucukbaslikrengi);
-  transform: translateY(9000px);
-  animation: slideUp .8s ease forwards 1s;
  
-}
-.header > .bloglink h{
-  transform: translateY(9000px);
-  animation: slideUp .8s ease forwards 1s;
+  margin-left:0px;
+  color:var(--kucukbaslikrengi);
+ 
 }
 .header h3{
   color:dimgray;
   font-size: 15px;
   font-weight: 200;
-  transform: translateY(600px);
-  animation: slideUp .8s ease forwards 0.8s;
+  transform: translateY(650px);
+  animation: slideDown .8s ease forwards 0.9s;
 }
 
 .main{
@@ -78,3 +66,12 @@
 
 
 
+@keyframes slideDown {
+  0% {
+    transform: translateY(-350px);
+  }
+  100% {
+    
+    transform: translateY(0px);
+  }
+}

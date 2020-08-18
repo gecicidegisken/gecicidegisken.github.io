@@ -59,7 +59,7 @@ a{
  font-family: 'Comfortaa', cursive;
  align-self: center;
  overflow: hidden;
-  height: auto;
+ height: auto;
 
 }
 .header,.navbar{
@@ -200,7 +200,7 @@ a{
 
 @keyframes slideUp {
   0% {
-    transform: translateY(300px);
+    transform: translateY(350px);
   }
   100% {
     transform: translateY(0px);
