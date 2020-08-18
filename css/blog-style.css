@@ -241,7 +241,6 @@ display: flex;
 }
 @media only screen and (max-width: 600px){
 
-overflow-y: scroll; /* has to be scroll, not auto */
- overflow-x: hidden; 
+ html, body {width: auto!important; overflow-x: hidden!important} 
 -webkit-overflow-scrolling: touch;
 }
