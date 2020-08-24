@@ -148,6 +148,22 @@ html,body{
   color: var(--socialrengi);
 
 }
+.language{
+  overflow: hidden;
+  margin-top:10px;
+  color: gray;
+}
+.language a{
+   overflow: hidden;
+   transform: translateY(100px);
+   animation: slideUp .8s ease forwards 1.2s;
+   color: gray;
+}
+.language p{
+  overflow: hidden;
+   transform: translateY(100px);
+   animation: slideUp .8s ease forwards 1.2s;
+}
 
 
 .overlay {
