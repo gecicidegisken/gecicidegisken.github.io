@@ -85,7 +85,13 @@ a{
    transform: translateY(100px);
   animation: slideUp .8s ease forwards .5s;
  }
-
+.arsiv {
+  display: flex;
+ 
+  flex-wrap: wrap;
+  flex-grow: 3;
+  justify-content: space-around;
+};
 
 /* NAVBAR */
 .navbar{
