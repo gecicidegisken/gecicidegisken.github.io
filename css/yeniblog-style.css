@@ -21,7 +21,7 @@ a{
   --socialrengi:#cfb495;
   --metinrengi:black;
   --cizgirengi:gray;
-  --postbaşlığı:#353839;
+  --postbaşlığı:#434545;
   --navbarhover:#ea907a;
   --overlay:;
   --kucukbaslikrengi:#758184;
@@ -30,20 +30,15 @@ a{
 
 
 /* CONTAINER */
-.container {
-  
+.container { 
   width: 100%;
   height: 100%;
   animation: expand .8s ease forwards;
   background-color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   transition: all .8s ease;
-
-}
-.container{
   text-align: left;
   overflow: hidden;
-
 }
 
 /* MAIN */
@@ -203,13 +198,6 @@ a{
 
 
 
-@media only screen and (min-width: 768px) {
-  .post-preview > a > .post-title {
-    font-size: 36px;
-  }
-
-}
-
 @media only screen and (max-width: 800px){
   .main{
     width: 100%;
@@ -237,7 +225,8 @@ a{
 
 /* tablets and large phones */
 @media only screen and (min-width: 768px) {
-
+  .post-preview > a > .post-title {
+    font-size: 36px;
  .main{
   width: 75%;
   margin: 0 auto 0 auto;
