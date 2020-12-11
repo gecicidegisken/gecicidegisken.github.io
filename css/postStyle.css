@@ -6,32 +6,33 @@
 
 
 /* CONTAINER */
-
-
-
+.container{
+  flex-direction: column;
+}
 
 /* HEADER */
 
-.header{
-  font-size: 0.5rem;
-  
-}
 .header > .postAdi{
+  text-align: center;
   font-size: 2.5rem;
   color:var(--postbasligi);
   margin-bottom: 3px;
   transform: translateY(600px);
-  animation: slideDown .8s ease forwards 0.8s;
+  animation: slideDown .6s ease forwards 0.6s;
 }
-
+.postAdi h1{
+   margin-left: 0px;
+}
 .header h2{
   transform: none;;
   animation:none;
 }
+
 .header >.bloglink a{
  
   margin-left:0px;
   color:var(--kucukbaslikrengi);
+
  
 }
 .header h3{
@@ -43,8 +44,9 @@
 }
 
 .main{
-  font-weight: 350;
+  font-weight: 450;
   animation: slideUp .5s ease forwards 1s;
+
 }
 
 .footer{
@@ -52,22 +54,20 @@
   text-align: center;
 }
 
-p{
-  text-indent: 10px;
-}
+
 
 @media only screen and (min-width: 768px){
 
   .header > .postAdi{
-  max-width:20rem; 
-
   color:var(--postbasligi);
-  margin-bottom: 3px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.header h2{
+  text-align:center;
 }
 
 }
-
-
 
 @keyframes slideDown {
   0% {
