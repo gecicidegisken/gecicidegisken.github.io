@@ -1,6 +1,7 @@
 :root{
   --postbasligi:#deb881;
   --kucukbaslikrengi:#758184;
+    --link:#ba7967;  
 }
 
 
@@ -56,6 +57,9 @@
 }
 .main p {
   font-size: 18px;
+}
+.main a{
+  color:var(--link);
 }
 
 .footer{
