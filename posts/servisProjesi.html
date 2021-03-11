@@ -1,0 +1,81 @@
+
+<!-- Bu sayfaya deneyim olarak bir uygulamayı lisanslama, kullanıma sunma, build, publish olayları yazılacak -->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Servis Projesi </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/blog-style.css">
+	<link rel="stylesheet" type="text/css" href="../css/postStyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@350;400;424;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<!-- meta tags -->
+	<meta charset="UTF-8">
+   	<meta name="description" content="Geçici Değişken bir bilgisayar mühendisliği öğrencisi tarafından yazılan bir blogtur">
+    <meta name="keywords" content="blog, bilgisayar mühendisliği,computer,engineer,resume, personal, portfolio,geçici değişken">
+    <meta name="author" content="Hilal Elif Mutlu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="container">
+	<div class="header">
+		<h2 class="bloglink"> <a href="../blog.html">Geçici Değişken | Blog </a></h2>
+		<h1 class="postAdi">Teknik Servisler İçin Masaüstü Uygulaması</h1>
+		
+			<h3><hr>Bir teknik servisin müşterilerini ve cihazlarını takip edebilmesi için geliştirdiğim masaüstü uygulaması  <br><i>9 Eylül 2021 </i></h3>
+	</div> <!-- header -->
+
+		<div class="main">
+			
+			<div class="post">
+			
+				<p>Bir tanıdık için bir iş aldım. <i> İlk freelance işim :) </i> Bir teknik servisi için işlerini ve müşterilerini takip edebileceği bir Windows masaüstü uygulaması. </p>
+				<p> Projede Windows Forms kullandım. (C# .NET) Çeşitli yerlerde sık sık kötülendiğine şahit oldum winforms'un fakat elim kullanmaya çok alışık olduğu için ve projem için de gayet işe yarar olduğu için tercih ettim. </p>
+				<p>
+					İçeriğinden biraz bahsedeyim. Ana sayfada, bu ay cihazının kontrol sırası gelen müşterilerin bir listesini görüyorsunuz. Ayrıca, tüm müşterilerin sırasını görmek veya yeni müşteri eklemek gibi işlemleri yapabileceğiniz butonlar var. Bu butonlar da yeni pencereler (duruma göre diyaloglar) açıyor ve işlemlerinizi takip edebiliyorsunuz. Her müşteri için yaptığınız kontrollerin, tamirlerin ve bütün işlemlerin listesini tutabiliyorsunuz.
+				</p>
+				<p>
+					Eksik bilgi girildiğinde uyarı vermesi veya bir <i> texbox'u </i> düzenlemeyi aktif hale getirmek gibi işlemler çocuk oyuncağı olan kısımlardı. Gerçi her çalıştırmada fark edilen ufak tefek hatalar ya da <i> şöyle olsa daha iyi olur</i>'lar yüzünden, biraz ayak işi uzun sürdü. Bunları daha düzenli ve tek bir yerden kontrol edebilecek şekilde yazmayı deneyeceğim.  Arayüzü ve sınıfların birbiriyle bağlantısını tasarlamak da nispeten kolaydı. Benim için yeni ve zor olan kısım, verileri kaydedebilmekti. Evet müşteriyi girdik, yaptığımız işleri girdik her şey çalışıyor fakat uygulamayı kapatıp tekrar açtığımızda her şey sıfırlanıyor. Bir veri tabanına ihtiyacım olduğunu biliyordum fakat nerden başlayacağımdan emin değildim. Araştırmalarım sırasında tam da işime gelen "serialization" kavramıyla tanıştım. Serialization, bir veri yapısını, bilgisayarda saklayabileceğimiz <i>(store)</i> ve sonra tekrar oluşturabilecğimiz bir forma dönüştürmek anlamına geliyor. Bir veriyi binary, JSON ya da XML gibi formatlarda serileştirebiliyoruz. Bu ve bununla birlikte yapabileceklerim ufkumu epey açtı. Projede otomatik oluşturulan App.config dosyasının da bu mantıkla çalıştığı sonucuna ulaştım. Ayrıca Settings özelliğini (mantığını yeni öğrendiğim için) ilk kez kullandım ve faydasını gördüm.
+				</p>
+				<p> Yaptığım ve gurur duyduğum şeylerden biri de <i>refactoring</i>. Sürekli orada burada görüyordum fakat ne olduğunu bilmeden yapıyormuşum bunu. Refactoring, kodu gözden geçirmek ve düzenlemek demek. Birkaç yerde tekrar ettiğini gördüğüm satırları method haline getirdim. Her methodun amacını yorum satırlarına aldım ve aynı amaçtakileri bir region altında topladım. Ayrıca field'ları, property'leri de region ile toparladım. Gereksiz using'leri ve <i>bu burda ne yapıyormuş ya </i> dediğim satırları temizledim. Gerçekten de refaktörden sonra tertemiz, düzenli bir proje kaldı elimde. Bir düzenleme yapmak istediğimde ilgili satırları nerede arayacağımı biliyorum ve bu uzun süre kullanılacak, sorun çıkabilecek, geribildirim almam gerecek bir uygulama olduğu için aylar sonra açtığımda şimdiki kendime bol bol teşekkür edeceğime eminim.	
+				</p>
+				<p>
+					Bu dönem okulda öğrendiğim belli konseptleri, mesela linked list ve stack veri yapılarını, ya da bazı oop tasarım desenlerini kullandığım için de epey bir tatmin oldum diyebilirim. Okulda öğrediklerimi gerçek hayatta problem çözümünde kullanmak bana attığım her adımın faydalı ve gerekli olduğunu gösteriyor.
+				</p>
+				<p>
+					Sonuçta kazanımlarımı özetlemek isterim. <br>
+					- Artık herhangi bir WinForms uygulamasını sorunsuz çalışır halde teslim edebileceğime güveniyorum. Bundan bir sonraki adımda kendime meydan okuyup masaüstü geliştirecek olursam GUI tarafında başka bir teknolojiyi deneyebilirim. <br>
+					- Yukarda bahsettiğim serialization işlemi, ki uzun süredir veri saklamayı araştırsam da yöntemleri deneyip kullanmayı erteliyordum. <br>
+					- Refaktörün ne kadar faydalı bir şey olduğunu keşfettim ve düzenli bir şekilde yapma bilinci edindim. <br>
+					-  Son kullanıcıya teslim edilecek şekilde, öğrenme amaçlı değil kullanma amaçlı ilk uygulamamı yapmış oldum. <br>
+					- Kullancı deneyimine <i>(ux)</i> özen gösterdim. Yardım sayfası, uyarı mesajları, tooltipler, uygun formatlar kullanmak için çok özen gösterdim. <br>
+					- Telefon numarası'nı int değil string olarak tuttum. :) <br>
+					- İlk freelance işimi yapmış oldum. <br>
+				</p>
+
+
+		<div class="footer">
+		<div class="atif">
+  <div class=socialicons>
+    <hr >
+          <a  href="https://www.github.com/gecicidegisken" class="fa fa-github" style="font-size:48px;" target="_blank" alt="github" name="Github"></a>
+          <a href="https://www.instagram.com/volfrayet"  class="fa fa-instagram" style="font-size:48px;" target="_blank" alt="instagram" name="Instagram"></a>
+          <a href="mailto:hilalelifmutlu@gmail.com" name="mail" class="fa fa-envelope-o" style="font-size:48px;"></a>
+        </div> <!-- socialicons -->
+  
+         <p> 2020 •  <a href="http://hilalelifmutlu.engineer/">Hilal Elif Mutlu </a>  &#129429;</p>
+      </div>
+
+
+		</div> <!-- footer ends -->
+	</div> <!--main-->
+</div> <!-- container-->
+
+
+</body>
+</html>
