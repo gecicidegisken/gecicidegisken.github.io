@@ -6,7 +6,7 @@ category: tavsiye
 
 Kod yazarken yardıma ihtiyacı olmayan yok, bu İngilizce, Türkçe her blogta, forumda, videoda bahsedilen bir gerçek. Yeni başlayan ya da uzman herkesin bir noktada birine ya da bir şeye danışması gerekiyor. 
 
-Hem yardım eden hem de yardımcı olan tarafta sık sık bulunan biri olarak, bu sürecin iki taraf için de kolaylaşmasını ve hızlanmasını sağlayacak olan bazı tecrüblerim var.
+Hem yardım alan hem de yardımcı olan tarafta sık sık bulunan biri olarak, bu sürecin iki taraf için de kolaylaşmasını ve hızlanmasını sağlayacak olan bazı tecrüblerim var.
 
 ### Hatanın anlaşılması ve analiz edilmesi
 
@@ -26,11 +26,11 @@ Aynı kodu başka bir yerde yazdınız, oradaki çalışıyor ama bu çalışmı
 
 IDE veya editorler eğer bariz bir hata yapıldıysa mutlaka hata mesajı veriyor. Onları boşuna vermiyor. Bazen *"missing }"* hatası yardım platformlarında  soruluyor. Bilgisayar aslında açık ve net bir şekilde x. satıra bir tane " } " koy diyor. Yani nereye ne koyacağına kadar söylüyor bunlara dikkat edebiliriz.
 
-Hata mesajlarını anlamak bazen çok kolay olmuyor. Özellikle geliştirme platformu Türkçe ise benim kafamı çok karıştırıyor, sebebi de teknik terimlerin çevrilmesi. *Uç arabirim beklenmedik şekilde sonlandırıldı* cümlesi beynimde okuduğum anda bir anlam ifade etmiyor. Bu tür yardımcı araçları anlamak için ekstra efor sarfetmemeliyiz diye düşünüyorum.
+Hata mesajlarını anlamak bazen çok kolay olmuyor. Özellikle geliştirme platformu Türkçe ise benim kafamı çok karıştırıyor, sebebi de teknik terimlerin çevrilmesi. *Uç arabirim beklenmedik şekilde sonlandırıldı* cümlesi beynimde okuduğum anda bir anlam ifade etmiyor. Bu tür yardımcı araçları anlamak için ekstra efor sarfetmemize gerek olmamalı diye düşünüyorum.
 
 ### Araştırma adımı
 
-Programcının en EN büyük becerisi arama motoru kullanabilme becerisidir. Benim 4 yıllık öğrenciliğim boyunca internette aratıp da bulamadığım birkaç tane problem olmuştur. Bunların belki bir iki tanesi gerçekten spesifik sorular olduğu için bulunmamıştır, diğerlerinde eminim ki ben doğru anahtar kelimelerle araştırmamışımdır. Eğer  gerçekten internette çözümü olmayan bir şey bulduysanız gerçekten iyi bir şeyler bulmuş olabilirsiniz. :o
+Programcının en EN büyük becerisi arama motoru kullanabilme becerisidir. Benim 4 yıllık öğrenciliğim boyunca internette aratıp da bulamadığım birkaç tane problem olmuştur. Bunların belki bir iki tanesi gerçekten spesifik sorular olduğu için bulunmamıştır, diğerlerinde eminim ki ben doğru anahtar kelimelerle araştırmamışımdır. Eğer  ***gerçekten*** internette çözümü olmayan bir şey bulduysanız ***gerçekten iyi bir şeyler*** bulmuş olabilirsiniz. 😶‍🌫️
 
 **Anafikre odaklanmak**
 
@@ -38,7 +38,7 @@ Diyelim ki basit bir “todo list” mobil uygulaması yapıyoruz. Görevleri bi
 
 Bizim ihtiyacımız *“listeden öge silmek, x dili”* şeklinde bir arama. Anafikir yapılacaklar listesi değil, anafikir liste yapısı. 
 
-> (İngilizce konusunda çok tutucuyum, bundan sonraki her yazımda geçer bu muhtemelen. Araştırmaları da İngilizce yapmak nokta atışı çözümlere ulaştıracaktır. Bana güvenin ve tüm ortamlarınızı İngilizce’ye geçirin.)
+>İngilizce konusunda çok tutucuyum, her lafımda geçer bu muhtemelen. Araştırmaları da İngilizce yapmak nokta atışı çözümlere ulaştıracaktır. Bana güvenin ve tüm ortamlarınızı İngilizce’ye geçirin.
 > 
 
 **ChatGPT**
@@ -79,3 +79,7 @@ Belirtmeme gerek olması çok üzücü ama var. Kaba biri olmanın alemi yok. Ki
 
 Programlama serüveninde bence en önemli şeylerden biri topluluk. Bu topluluk sayesinde öğrenip bu topluluk sayesinde gelişiyoruz. Yazılım/teknoloji topluluğuna her anlamda borçluyuz ve bunu geri ödeyerek döngüyü devam ettirmeliyiz.
 
+
+>
+    Bütün bunları yardım eden tarafta olmaktan ÇOK BÜYÜK keyif alan biri olarak yazdım. Bu da benzer konularda her zaman sorulara ve yardıma açık olduğuma dair bir hatırlatmadır.
+>
