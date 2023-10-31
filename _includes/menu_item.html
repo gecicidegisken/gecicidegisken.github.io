@@ -4,9 +4,16 @@
     {%- if item.url -%}
       <a href="{{ item.url }}">{{ item.title }}</a>
     {%- else -%}
+
+       {%-if item.bold-%}
+      <b>{{ item.title }}</b>
+      {%- else -%}
       {{ item.title }}
+      {%-endif-%}
     {%- endif -%}
     </li>
+
+
 
     {%-if item.post_list-%}
       {%

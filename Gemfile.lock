@@ -66,14 +66,15 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    webrick (1.8.1)
 
 PLATFORMS
   arm64-darwin-23
-  x86_64-linux
 
 DEPENDENCIES
   kramdown-parser-gfm
   no-style-please!
+  webrick
 
 BUNDLED WITH
    2.4.21

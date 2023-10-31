@@ -4,7 +4,7 @@ email: sibervepunk@gmail.com # email of site's author
 url: gecicidegisken.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  Bilgisayar mühendisliği ve programlama hakkında bir blog
+  Bilgisayar mühendisliği ve programlama üzerine yazılar.
 
 permalink: /:slug.html
 
@@ -14,10 +14,12 @@ favicon: "logo.png" # name+extension of favicon (which must be put on the root f
 remote_theme: riggraz/no-style-please
 
 theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
+  appearance: "dark" # can be "light", "dark" or "auto"
   back_home_text: "home" # customize text for homepage link in post layout
   date_format: "%d-%m-%Y" # customize how date is formatted
   show_description: true # show blog description in home page
+  email: "sibervepunk@gmail.com"
+  twitter: "https://twitter.com/sibervepunk"
 
 sass:
   style: :compressed

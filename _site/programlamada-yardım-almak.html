@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Programlamada Yardım Almak</title><!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Programlamada Yardım Almak" />
+<meta name="author" content="sibervepunk" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Kod yazarken yardıma ihtiyacı olmayan yok, bu İngilizce, Türkçe her blogta, forumda, videoda bahsedilen bir gerçek. Yeni başlayan ya da uzman herkesin bir noktada birine ya da bir şeye danışması gerekiyor." />
+<meta property="og:description" content="Kod yazarken yardıma ihtiyacı olmayan yok, bu İngilizce, Türkçe her blogta, forumda, videoda bahsedilen bir gerçek. Yeni başlayan ya da uzman herkesin bir noktada birine ya da bir şeye danışması gerekiyor." />
+<link rel="canonical" href="http://localhost:4000/programlamada-yard%C4%B1m-almak.html" />
+<meta property="og:url" content="http://localhost:4000/programlamada-yard%C4%B1m-almak.html" />
+<meta property="og:site_name" content="sibervepunk" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-08-09T00:00:00+03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Programlamada Yardım Almak" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/programlamada-yard%C4%B1m-almak.html"},"author":{"@type":"Person","name":"sibervepunk"},"url":"http://localhost:4000/programlamada-yard%C4%B1m-almak.html","description":"Kod yazarken yardıma ihtiyacı olmayan yok, bu İngilizce, Türkçe her blogta, forumda, videoda bahsedilen bir gerçek. Yeni başlayan ya da uzman herkesin bir noktada birine ya da bir şeye danışması gerekiyor.","@type":"BlogPosting","headline":"Programlamada Yardım Almak","dateModified":"2023-08-09T00:00:00+03:00","datePublished":"2023-08-09T00:00:00+03:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="sibervepunk" /><link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head><body a="dark">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/">home</a><article>
+  <p class="post-meta">
+    <time datetime="2023-08-09 00:00:00 +0300"
+      >09-08-2023</time
+    >
+  </p>
+
+  <h1>Programlamada Yardım Almak</h1>
+
+  <p>Kod yazarken yardıma ihtiyacı olmayan yok, bu İngilizce, Türkçe her blogta, forumda, videoda bahsedilen bir gerçek. Yeni başlayan ya da uzman herkesin bir noktada birine ya da bir şeye danışması gerekiyor.</p>
+
+<p>Hem yardım eden hem de yardımcı olan tarafta sık sık bulunan biri olarak, bu sürecin iki taraf için de kolaylaşmasını ve hızlanmasını sağlayacak olan bazı tecrüblerim var.</p>
+
+<h3 id="hatanın-anlaşılması-ve-analiz-edilmesi">Hatanın anlaşılması ve analiz edilmesi</h3>
+
+<p>İkinci bir kişiye başvurmadan önce yapabileceğimiz çok fazla şey var ve bunlar herkesten önce bize zaman kazandıran adımlar. En önemlisi karşılaştığımız hatanın aslında ne olduğunu bilmeliyiz.</p>
+
+<p><strong>Hata ayıklama (debugging)</strong></p>
+
+<p>Hata ayıklama, programlamanın bir parçası. Hatta bir parçası bile değil ya direkt kendisi diyeceğim. Hataya sebep olan kodu da programlayan kişi yazdı sonuçta. En kolay düzeltebilecek kişi de o.</p>
+
+<p>Bu adım hatanın çözülebileceği en kolay adım aslında. Özellikle yeni programlama öğrenenler doğru debuglamayı da öğrenirlerse hataların %90’ından stackoverflow’a gitmezler bile. IDE’lerin özel debug araçları var ve bunlar kullanışlı ama ondan önce çok basit print, log ifadelerini doğru yerlere koymak ve çıktılarını görmek baş ağrılarını baştan önleyebilir. <em>“Loop çalışmıyor”</em> geçerli bir hata tarifi değildir. Loop başına, sonuna, işlemin yapıldığı noktalara birer log atarız. Bunun sonucunda hatayı, <em>“loopa girmiyor, looptan çıkmıyor ya da loopta işlem yapılmıyor”</em> diye küçültebiliriz. Uğraşacağımız kısım çok daha dar bir alan oldu artık.</p>
+
+<p><strong>Kod tekrarları</strong></p>
+
+<p>Aynı kodu başka bir yerde yazdınız, oradaki çalışıyor ama bu çalışmıyor. Demek ki burada bir problem var. Orayla burası arasında ne fark var? Aynı dosyalar mı import ediliyor, aynı değişkenler tanımlanmış mı, aynı noktaya varıyorlar mı? Orada çalışan kodun burada çalışmamasının tek sebebi farklı bir şeylerin olmasıdır. O farkı bulmalı ve hatayla ilişkilendirmeliyiz.</p>
+
+<p><strong>Hata mesajları</strong></p>
+
+<p>IDE veya editorler eğer bariz bir hata yapıldıysa mutlaka hata mesajı veriyor. Onları boşuna vermiyor. Bazen <em>“missing }”</em> hatası yardım platformlarında  soruluyor. Bilgisayar aslında açık ve net bir şekilde x. satıra bir tane “ } “ koy diyor. Yani nereye ne koyacağına kadar söylüyor bunlara dikkat edebiliriz.</p>
+
+<p>Hata mesajlarını anlamak bazen çok kolay olmuyor. Özellikle geliştirme platformu Türkçe ise benim kafamı çok karıştırıyor, sebebi de teknik terimlerin çevrilmesi. <em>Uç arabirim beklenmedik şekilde sonlandırıldı</em> cümlesi beynimde okuduğum anda bir anlam ifade etmiyor. Bu tür yardımcı araçları anlamak için ekstra efor sarfetmemeliyiz diye düşünüyorum.</p>
+
+<h3 id="araştırma-adımı">Araştırma adımı</h3>
+
+<p>Programcının en EN büyük becerisi arama motoru kullanabilme becerisidir. Benim 4 yıllık öğrenciliğim boyunca internette aratıp da bulamadığım birkaç tane problem olmuştur. Bunların belki bir iki tanesi gerçekten spesifik sorular olduğu için bulunmamıştır, diğerlerinde eminim ki ben doğru anahtar kelimelerle araştırmamışımdır. Eğer  gerçekten internette çözümü olmayan bir şey bulduysanız gerçekten iyi bir şeyler bulmuş olabilirsiniz. :o</p>
+
+<p><strong>Anafikre odaklanmak</strong></p>
+
+<p>Diyelim ki basit bir “todo list” mobil uygulaması yapıyoruz. Görevleri bir liste yapısında tutuyoruz. Listelere ögeleri ekleyecek kodu yazdık ama kaldırmayı yapamadık. İnternette araştırdığımız cümle <em>“yapılacaklar listesinden öge kaldırma”</em> olursa herhalde üretkenlik içerikleri falan çıkar. <em>“x programlama dilinde yapılacaklar listesinden öge kaldırma”</em> dersek evet biraz daha amaca uygun ama yine de başkalarının implementasyonlarına dayalı, dinamiği bizim programımıza uymayacak çözümler buluyoruz.</p>
+
+<p>Bizim ihtiyacımız <em>“listeden öge silmek, x dili”</em> şeklinde bir arama. Anafikir yapılacaklar listesi değil, anafikir liste yapısı.</p>
+
+<blockquote>
+  <p>(İngilizce konusunda çok tutucuyum, bundan sonraki her yazımda geçer bu muhtemelen. Araştırmaları da İngilizce yapmak nokta atışı çözümlere ulaştıracaktır. Bana güvenin ve tüm ortamlarınızı İngilizce’ye geçirin.)</p>
+
+</blockquote>
+
+<p><strong>ChatGPT</strong></p>
+
+<p>Yapay zeka destekli yardımcıların kullanılmasına ben karşı değilim. Yeni başlayanların her sıkıştığında oraya gitmesinin ya da direkt kodu istemesinin tabii ki sakıncalı olduğunu düşünüyorum. Herkes kendi bilgi ve yetkinliği doğrultusunda yapay zeka dozunu ayarlayabilir. Yine de oraya başvurmadan önce gerçek insanların yazılı ya da sözlü fikir alışverişi yapması birçok açıdan bana daha doğru ve daha faydalı geliyor.</p>
+
+<h3 id="yardım-isteme-adımı">Yardım isteme adımı</h3>
+
+<p>Hata analiz edildi, ne olduğu az çok anlaşıldı. Hata mesajı yok ya da çözüm sunmadı, problem internette de aranamayacak kadar spesifik ya da karmaşık. Sonuçta sadece programlama hataları konusunda değil algoritma ve mantık konusunda da yardıma ihtiyacımız oluyor. Tam olarak ihtiyacımızı belirtmek zorunda kalabiliriz.</p>
+
+<p>Bu adımlar belirli bir kişiye soru sorarken iki taraf için de kullanışlı olacak ama daha da güzeli, toplu bir platforma sorarken cevap alma olasılığını kat kat arttıracak. Çünkü yardımcı olacak kişi hatayı anlamak için ekstra efor harcamayacak, çözüm odaklı yaklaşabilecek.</p>
+
+<p><strong>Girebildiğin kadar detaya gir</strong></p>
+
+<p><em>“xx yaparken kod hata veriyor”</em> cümlesi eksik. Gereksiz yere süreci uzatacak derecede eksik. Ne hatası veriyor? Çalışmıyor mu, çalışıp duruyor mu, hiç tepki vermiyor mu, kapanıyor mu, hata fırlatıyor mu? Problem açık ve net tarif edilmeli. Yine (o bağlamda mümkünse) anafikre odaklanarak sorulmalı.</p>
+
+<p>Probleme dair mümkün olduğunca çok detay verilmeli. Hangi işletim sistemi, hangi platform, hangi dil, hangi framework, hangi modüller her şey önemli.</p>
+
+<p>Hata mesajlarını varsa paylaşılmalı. Siz anlamamış olabilirsiniz ama başkası anlayabilir. İşe yaramıyor diye düşünmemek lazım.</p>
+
+<p>Kodların ekran görüntüsünü ya da daha da kötüsü fotoğrafını atmak yerine direkt yazılı olarak kod paylaşılmalı. Hem okuması hem de gerekirse kopyalayıp denemesi kolay oluyor.</p>
+
+<p>Eğer analiz etme kısmında problemi doğru bir şekilde daralttığınızdan eminseniz sadece hatalı olan kısmın kodunu paylaşın. Değilseniz ve tüm kodu paylaşıyorsanız da hatanın nerede olabileceğini belirtin.</p>
+
+<p><strong>Fikir isterken</strong></p>
+
+<p>“Yapılacaklar listesi programı nasıl yapılıır?” sorusu da eksik. Kimse oturup sıfırdan bunu anlatmaz, anlatmamalı da zaten. Hangi platforma, hangi araçlar kullanarak yapılacağı gibi detaylar verildikten sonra programın ana yapısı ve nereden başlayacağınıza dair fikir istemek çok daha verimli olacaktır.</p>
+
+<h3 id="bonuslar-last-but-not-least">Bonuslar <em>(last but not least)</em></h3>
+
+<p>Bu maddelere bonus dedim ama diyecek daha iyi bir kelime aklıma gelmediği için. Yoksa olmasa da olur maddeler değil bunlar. Olmazsa olmazlar.</p>
+
+<p><strong>Kibarlık</strong></p>
+
+<p>Belirtmeme gerek olması çok üzücü ama var. Kaba biri olmanın alemi yok. Kimse kimseye yardım etmeye mecbur değil, iyilik olsun diye yapılıyor bu işler. Sorunun tartışması boyunca net, temiz cümleler kurup karşımızdakinin bize vakit ayırdığını aklımızdan çıkarmamalıyız. Sorun çözüldükten sonra bir teşekkürü çok görmemeliyiz. Yarın öbür gün aynı kişiye yine danışacağız, yüzümüz olmalı bunu yapmaya.</p>
+
+<p><strong>Topluluğa geri verme</strong></p>
+
+<p>Programlama serüveninde bence en önemli şeylerden biri topluluk. Bu topluluk sayesinde öğrenip bu topluluk sayesinde gelişiyoruz. Yazılım/teknoloji topluluğuna her anlamda borçluyuz ve bunu geri ödeyerek döngüyü devam ettirmeliyiz.</p>
+
+
+</article>
+
+<!-- FOOTER -->
+<hr>
+<p>
+  Okuduğunuz için teşekkürler. Konuyla ilgili ekleme, düzeltme yapmak ya da
+  tartışmak isterseniz memnuniyetle karşılık veririm. <br />
+  <!-- insert social links (twitter and email) -->
+  <div style="text-align: center;">
+  <a
+    href="https://twitter.com/sibervepunk"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    twitter
+  </a>
+  |
+  <a
+    href="mailto:sibervepunk@gmail.com"
+    rel="noopener noreferrer"
+  >
+    sibervepunk@gmail.com
+  </a>
+  </div>
+</p>
+
+      </div>
+    </main>
+  </body>
+</html>
