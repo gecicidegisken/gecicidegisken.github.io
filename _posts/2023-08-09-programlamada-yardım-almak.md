@@ -30,7 +30,7 @@ Hata mesajlarını anlamak bazen çok kolay olmuyor. Özellikle geliştirme plat
 
 ### Araştırma adımı
 
-Programcının en EN büyük becerisi arama motoru kullanabilme becerisidir. Benim 4 yıllık öğrenciliğim boyunca internette aratıp da bulamadığım birkaç tane problem olmuştur. Bunların belki bir iki tanesi gerçekten spesifik sorular olduğu için bulunmamıştır, diğerlerinde eminim ki ben doğru anahtar kelimelerle araştırmamışımdır. Eğer  ***gerçekten*** internette çözümü olmayan bir şey bulduysanız ***gerçekten iyi bir şeyler*** bulmuş olabilirsiniz. 😶‍🌫️
+Programcının en EN büyük becerisi arama motoru kullanabilme becerisidir. Benim 4 yıllık öğrenciliğim boyunca internette aratıp da bulamadığım birkaç tane problem olmuştur. Bunların belki bir iki tanesi gerçekten spesifik sorular olduğu için bulunmamıştır, diğerlerinde eminim ki ben doğru anahtar kelimelerle araştırmamışımdır. Eğer  ***gerçekten*** internette çözümü olmayan bir şey bulduysanız ***gerçekten iyi bir şeyler*** bulmuş olabilirsiniz. <span class="emoji">😶‍🌫️</span>
 
 **Anafikre odaklanmak**
 
