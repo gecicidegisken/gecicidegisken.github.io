@@ -9,7 +9,4 @@ layout: default
   {%-endif-%}
 </header>
 
-{%-include menu_item.html collection=site.data.menu.entries-%}
-<button id="theme-toggle">Switch Theme</button>
-
-{{ content }}
+{%-include menu_item.html collection=site.data.menu.entries-%} {{ content }}
