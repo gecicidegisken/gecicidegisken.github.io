@@ -4,7 +4,8 @@ entries:
     entries:
       - title: bilgisayar mühendisi, software developer olarak çalışmakta
       - title: "iletişim: <a href='mailto:sibervepunk@gmail.com'>sibervepunk@gmail.com </a> | <a href='https://twitter.com/sibervepunk' target='_blank'>twitter</a>"
-
+      - title: for english
+        url: "https://sibervepunk.com/en/"
   - title: yazılar
     bold: true
     post_list:

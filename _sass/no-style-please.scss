@@ -1,23 +1,29 @@
 // -------------- THEME SWITCHER -------------- //
 
-
 @mixin dark-appearance {
   filter: invert(1);
   img {
     filter: invert(1);
 
-    &.ioda { filter: invert(0); }
+    &.ioda {
+      filter: invert(0);
+    }
   }
 
-  .emoji { filter: invert(1); }
+  .emoji {
+    filter: invert(1);
+  }
 }
 
-body[a="dark"] { @include dark-appearance; }
+body[a="dark"] {
+  @include dark-appearance;
+}
 
 @media (prefers-color-scheme: dark) {
-  body[a="auto"] { @include dark-appearance; }
+  body[a="auto"] {
+    @include dark-appearance;
+  }
 }
-
 
 // -------------------------------------------- //
 
@@ -46,9 +52,9 @@ body {
 .post-meta {
   text-align: right;
 }
-h1{
+h1 {
   font-size: 2rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   color: #00a347;
 }
 
@@ -76,7 +82,6 @@ a {
   color: #f26419;
   text-decoration: none;
 }
-
 
 *:target {
   background: #38618c;
