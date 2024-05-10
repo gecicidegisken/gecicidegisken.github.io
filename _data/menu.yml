@@ -1,25 +1,19 @@
 entries:
-  - title: yazar hakkında
+  - title: yazar
     bold: true
     entries:
-      - title: bilgisayar mühendisi, software developer olarak çalışmakta
+      - title: bilgisayar mühendisiyim, hem siber hem punk konulara meraklıyım
       - title: "iletişim: <a href='mailto:sibervepunk@gmail.com'>sibervepunk@gmail.com </a> | <a href='https://twitter.com/sibervepunk' target='_blank'>twitter</a>"
-      - title: for english
-        url: "https://sibervepunk.com/en/"
+      - title: punk kısım
+        url: "https://iyidenemeydimontaigne.blogspot.com/"
+
   - title: yazılar
     bold: true
     post_list:
       limit: 10
       show_more: true
-      show_more_text: Devamını gör
+      show_more_text: daha fazla gör
       show_more_url: archive.html
-
-  # - title: tavsiye yazıları
-  #   post_list:
-  #     category: tavsiye
-  #     show_more: true
-  #     show_more_text: See more posts...
-  #     show_more_url: example2-archive.html
 
   # - title: teknik yazılar
   #   entries:

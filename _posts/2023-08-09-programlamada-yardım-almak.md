@@ -1,6 +1,6 @@
 ---
 layout: post
-category: tavsiye
+category: teknik
 ---
 
 
@@ -80,5 +80,5 @@ Belirtmeme gerek olması çok üzücü ama var. Kaba biri olmanın alemi yok. Ki
 Programlama serüveninde bence en önemli şeylerden biri topluluk. Bu topluluk sayesinde öğrenip bu topluluk sayesinde gelişiyoruz. Yazılım/teknoloji topluluğuna her anlamda borçluyuz ve bunu geri ödeyerek döngüyü devam ettirmeliyiz.
 
 
->Bütün bunları yardım eden tarafta olmaktan ÇOK BÜYÜK keyif alan biri olarak yazdım. Bu da benzer konularda her zaman sorulara ve yardıma açık olduğuma dair bir hatırlatmadır.
+>Bütün bunları yardım eden tarafta olmaktan büyük keyif alan biri olarak yazdım. Bu da benzer konularda her zaman sorulara ve yardıma açık olduğuma dair bir hatırlatmadır.
 >

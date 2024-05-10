@@ -11,12 +11,12 @@
 {%-endif-%}
 
 {%- if posts.size > 0 -%}
-  <ul>
+  <ul style="list-style:circle;">
     {%- for post in posts limit: include.limit -%}
         <li>
           
           <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
-          <span style="float: right;">{{- post.date | date: site.theme_config.date_format -}}</span>
+          <span style="float:right; color: rgb(146, 146, 146); font-size: 14px;">{{- post.date | date: site.theme_config.date_format -}}</span>
         </li>
     {%- endfor -%}
     {%- if include.show_more and limit_exceeded -%}
