@@ -1,24 +1,28 @@
 entries:
-  - title: yazar
+  - title: english
+    url: en
+
+  - title: ben
     bold: true
     entries:
-      - title: bilgisayar mühendisiyim, hem siber hem punk konulara meraklıyım
+      - title: bilgisayar mühendisiyim, siber ve punk konularla ilgileniyorum
       - title: "iletişim: <a href='mailto:sibervepunk@gmail.com'>sibervepunk@gmail.com </a> | <a href='https://twitter.com/sibervepunk' target='_blank'>twitter</a>"
-      - title: punk konular
+
+
+  - title: yaptıklarım
+    bold: true
+    entries:
+      - title: siber konular (blog)
+        url: blog
+
+      - title: punk konular (denemeler) 🔗
         url: "https://iyidenemeydimontaigne.blogspot.com/"
 
-  - title: yazılar
-    bold: true
-    post_list:
-      limit: 10
-      show_more: true
-      show_more_text: daha fazla gör
-      show_more_url: archive.html
 
-  # - title: teknik yazılar
-  #   entries:
-  #     - title: with subitems
-  #       entries:
-  #         - title: with subsubitems
-  #         - title: example page
-  #           url: about
+
+    # post_list:
+    #   limit: 2
+    #   show_more: true
+    #   show_more_text: daha fazla gör
+    #   show_more_url: blog
+

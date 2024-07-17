@@ -4,7 +4,7 @@ email: sibervepunk@gmail.com # email of site's author
 url: gecicidegisken.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  Bilgisayar mühendisliği ve programlama üzerine yazılar.
+  sibervepunk is a computer engineer trying to add some kind of value to community
 
 permalink: /:slug.html
 
@@ -17,7 +17,7 @@ theme_config:
   appearance: "light" # can be "light", "dark" or "auto"
   back_home_text: "anasayfa" # customize text for homepage link in post layout
   date_format: "%d.%m.%Y" # customize how date is formatted
-  show_description: true # show blog description in home page
+  show_description: false # show blog description in home page
   email: "sibervepunk@gmail.com"
   twitter: "https://twitter.com/sibervepunk"
 
