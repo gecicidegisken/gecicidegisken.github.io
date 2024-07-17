@@ -1,21 +1,27 @@
 entries:
-  - title: english
-    url: en
 
   - title: ben
     bold: true
     entries:
+      # - title: english
+      #   url: en
       - title: bilgisayar mühendisiyim, siber ve punk konularla ilgileniyorum
       - title: "iletişim: <a href='mailto:sibervepunk@gmail.com'>sibervepunk@gmail.com </a> | <a href='https://twitter.com/sibervepunk' target='_blank'>twitter</a>"
+
+
 
 
   - title: yaptıklarım
     bold: true
     entries:
+      #TODO: uncomment   
+      # - title: youtube
+      #   url: blog
+
       - title: siber konular (blog)
         url: blog
 
-      - title: punk konular (denemeler) 🔗
+      - title: punk konular (denemeler) 
         url: "https://iyidenemeydimontaigne.blogspot.com/"
 
 

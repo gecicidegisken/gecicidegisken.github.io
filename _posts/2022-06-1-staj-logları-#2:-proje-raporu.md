@@ -1,6 +1,6 @@
 ---
 layout: post
-category: teknik
+category:
 ---
 
 Merhaba, <a>şurada</a> staj sürecimle ilgili yazdığım ilk yazının devamı için toplandık burada. Stajı nasıl bulduğum, neler yapacağıma karar verirken geçen birtakım karışık süreçleri anlattığım bu yazıyı geride bıraktığıma göre ilk iki ayın biraz daha teknik detaylarla süslenmiş raporunu yazmanın vakti gelmiştir. İçeriğin veya başlığın yanıltıcı olabilme ihtimalinden dolayı disclaimer’i şimdiden veriyorum: Bu bir tutorial yazısı değildir. Yaptığım çalışmaların en optimal çözümler olduğunu iddia etmiyorum ve öğretici bir kaynaktan ziyade ilham verici bir kaynak oluşturmayı hedefliyorum.

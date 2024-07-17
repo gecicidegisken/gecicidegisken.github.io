@@ -1,6 +1,6 @@
 ---
 layout: post
-category: teknik
+category: 
 ---
 
 Selam, belki de başlığı görerek geldiğiniz bu yazı staj yolculuğumla ilgili beklentinizi karşılayacağını umduğum uzun bir serinin başlangıç yazısı olacak. Yazımın hedef kitlesi sanırım en az 1. sınıf bilgisayar mühendisliği öğrencileri veya yazılım ilgilileri olacak çünkü çok ufak da olsa teknik detaylara gireceğim. Tabii meraklısı olan veya bölümü merak eden herkesin başımın üstünde yeri vardır. Bu noktada öncelikle kendimden bahsetmeli ve bu yolculuğun arkaplanında nelerin olduğunu göstermeliyim. Burayı merak etmeyip staj bulma kısmına atlamak isteyenler beklenmedik bir yolculuk başlığına doğru devam edebilir.

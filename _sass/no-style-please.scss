@@ -36,11 +36,10 @@ body[a="dark"] {
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 html,
 body {
-  background: rgb(255, 255, 255);
+  background: rgb(252, 242, 242);
 }
 
 html {
@@ -49,12 +48,12 @@ html {
 
 body {
   color: black;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
   overflow-wrap: break-word;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .post-meta {
@@ -105,7 +104,7 @@ a:hover{
 }
 
 .w {
-  max-width: 640px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 4rem 2rem;
 }

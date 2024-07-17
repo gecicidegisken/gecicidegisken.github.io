@@ -1,6 +1,6 @@
 ---
 layout: post
-category: teknik
+category:
 ---
 
 
