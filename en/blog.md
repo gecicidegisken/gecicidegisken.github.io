@@ -1,5 +1,5 @@
 ---
 layout: archive
 title: blog
-lang: tr
+lang: en
 ---

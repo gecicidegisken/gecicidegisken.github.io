@@ -18,24 +18,49 @@ layout: default
 
 <!-- FOOTER -->
 <hr>
-<p>
-  Okuduğunuz için teşekkürler. Konuyla ilgili ekleme, düzeltme yapmak ya da
-  tartışmak isterseniz memnuniyetle karşılık veririm. <br />
-  <!-- insert social links (twitter and email) -->
-  <div style="text-align: center;">
-  <a
-    href="{{site.theme_config.twitter}}"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    twitter
-  </a>
-  |
-  <a
-    href="mailto:{{site.theme_config.email}}"
-    rel="noopener noreferrer"
-  >
-    {{site.theme_config.email}}
-  </a>
-  </div>
-</p>
+{%- if page.lang == 'en' -%}
+  <p>
+    Thanks for reading. If you have any feedback or would like to discuss
+    further, I would be happy to hear from you. <br />
+    <!-- insert social links (twitter and email) -->
+    <div style="text-align: center;">
+    <a
+      href="{{site.theme_config.twitter}}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      twitter
+    </a>
+    |
+    <a
+      href="mailto:{{site.theme_config.email}}"
+      rel="noopener noreferrer"
+    >
+      {{site.theme_config.email}}
+    </a>
+    </div>
+  </p>
+{%- else -%}
+  <p>
+    Okuduğunuz için teşekkürler. Konuyla ilgili ekleme, düzeltme yapmak ya da
+    tartışmak isterseniz memnuniyetle karşılık veririm. <br />
+    <!-- insert social links (twitter and email) -->
+    <div style="text-align: center;">
+    <a
+      href="{{site.theme_config.twitter}}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      twitter
+    </a>
+    |
+    <a
+      href="mailto:{{site.theme_config.email}}"
+      rel="noopener noreferrer"
+    >
+      {{site.theme_config.email}}
+    </a>
+    </div>
+  </p>
+{%- endif -%}
+

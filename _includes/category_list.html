@@ -1,6 +1,24 @@
-<!-- category list -->
-{% assign categories = site.categories | sort %}
-{% for category in categories %}
-<span style="color: #929292;">|</span>
-    <a href="{{ category | first | downcase }}.html">{{ category | first }}</a> 
+<!-- Flatten the categories into a single array of posts -->
+{% assign all_posts = "" | split: "" %}
+{% for category in site.categories %}
+  {% assign all_posts = all_posts | concat: category[1] %}
+{% endfor %}
+
+<!-- Filter the posts based on the language -->
+{% assign filtered_posts = all_posts | where: "lang", page.lang %}
+
+<!-- Collect unique categories from filtered posts -->
+{% assign unique_categories = "" | split: "" %}
+{% for post in filtered_posts %}
+  {% for category in post.categories %}
+    {% unless unique_categories contains category %}
+      {% assign unique_categories = unique_categories | push: category %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+
+<!-- Display the unique categories -->
+{% for category in unique_categories %}
+  <span style="color: #929292;">|</span>
+  <a href="{{ category | downcase }}.html">{{ category }}</a> 
 {% endfor %}

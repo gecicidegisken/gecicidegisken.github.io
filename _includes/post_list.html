@@ -1,23 +1,27 @@
-{%-if include.category-%}
-  {%-assign posts = site.categories[include.category]-%}  
-{%-else-%}
-  {%-assign posts = site.posts-%}
-{%-endif-%}
+{%- if include.category -%}
+  {%- assign posts = site.categories[include.category] -%}  
+{%- else -%}  
+  {%- if page.lang == 'en' -%}
+    {%- assign posts = site.posts | where: "lang", "en" -%}
+    {%- else -%}
+    {%- assign posts = site.posts | where_exp: "post", "post.lang != 'en'" -%}
+{%- endif -%}
 
-{%-if include.limit and posts.size > include.limit-%}
-  {%-assign limit_exceeded = true-%}
-{%-else-%}
-  {%-assign limit_exceeded = false-%}
-{%-endif-%}
+{%- endif -%}
+
+{%- if include.limit and posts.size > include.limit -%}
+  {%- assign limit_exceeded = true -%}
+{%- else -%}
+  {%- assign limit_exceeded = false -%}
+{%- endif -%}
 
 {%- if posts.size > 0 -%}
   <ul style="list-style:circle;">
     {%- for post in posts limit: include.limit -%}
-        <li>
-          
-          <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
-          <span style="float:right; color: rgb(146, 146, 146); font-size: 14px;">{{- post.date | date: site.theme_config.date_format -}}</span>
-        </li>
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
+        <span style="float:right; color: rgb(146, 146, 146); font-size: 14px;">{{- post.date | date: site.theme_config.date_format -}}</span>
+      </li>
     {%- endfor -%}
     {%- if include.show_more and limit_exceeded -%}
       <li><a href="{{ include.show_more_url }}">{{ include.show_more_text | default: "Show more..." }}</a></li>

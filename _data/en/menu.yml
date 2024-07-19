@@ -1,10 +1,9 @@
 entries:
 
-  - title: ben
+  - title: me
     bold: true
     entries:
-      
-      - title: bilgisayar mühendisiyim, siber ve punk konularla ilgileniyorum
+      - title: a computer engineer, interested in some cyber and some punk stuff
       - title: email
         url: mailto:sibervepunk@gmail.com
       - title: twitter
@@ -13,18 +12,16 @@ entries:
 
 
 
-  - title: yaptıklarım
+  - title: my stuff
     bold: true
     entries:
       #TODO: uncomment   
       # - title: youtube
       #   url: blog
 
-      - title: siber konular (blog)
+      - title: blog
         url: blog
 
-      - title: punk konular (denemeler) 
-        url: "https://iyidenemeydimontaigne.blogspot.com/"
 
 
 
