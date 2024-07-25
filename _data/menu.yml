@@ -23,6 +23,9 @@ entries:
       - title: siber konular (blog)
         url: blog
 
+      - title: notlar
+        url: /notes
+
       - title: punk konular (denemeler) 
         url: "https://iyidenemeydimontaigne.blogspot.com/"
 
