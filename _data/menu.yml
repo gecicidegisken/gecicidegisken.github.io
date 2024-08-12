@@ -20,15 +20,11 @@ entries:
       # - title: youtube
       #   url: blog
 
-      - title: siber konular (blog)
+      - title: blog
         url: blog
 
       - title: notlar
         url: /notes
-
-      - title: punk konular (denemeler) 
-        url: "https://iyidenemeydimontaigne.blogspot.com/"
-
 
 
     # post_list:
