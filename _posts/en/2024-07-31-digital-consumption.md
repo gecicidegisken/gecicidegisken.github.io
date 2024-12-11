@@ -60,3 +60,7 @@ We are talking about the harms, but I have always been fascinated by the opportu
 ---
 
 I won't go against what I mentioned so I won't end this problem-filled post with advice or plans. That's why I started with the quote "know thyself." I just tried to see and make the problem tangible. I will stop researching what I can do for a while. First, I plan to clear my mind of clutter, quit this fast and excessive consumption habit I have acquired without realizing it, and then learn how to consume slowly and gradually. I have enough raw information to discover how to do all this myself; I will now give myself the opportunity to process it.
+
+-- 
+
+This post has been discussed on [Hacker News](https://news.ycombinator.com/item?id=42379970), you can join the conversation there.
