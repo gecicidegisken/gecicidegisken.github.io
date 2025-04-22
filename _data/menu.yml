@@ -23,9 +23,6 @@ entries:
       - title: blog
         url: blog
 
-      - title: notlar
-        url: /notes
-
 
     # post_list:
     #   limit: 2
